@@ -1,3 +1,5 @@
+# 该项目先处于测试阶段
+
 # Core SDK
 
 Trojan Panel Core SDK
