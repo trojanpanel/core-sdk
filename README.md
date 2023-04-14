@@ -54,3 +54,7 @@ func GenToken(accountVo vo.AccountVo, jwtKey string) (string, error) {
 	return token.SignedString(jwtKey)
 }
 ```
+
+# Community
+
+- Telegram Channel: [Trojan Panel](https://t.me/TrojanPanel)
