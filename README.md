@@ -30,11 +30,8 @@ type MyClaims struct {
 // TokenExpireDuration 过期时间默认2小时
 const TokenExpireDuration = time.Hour * 2
 
-// jwt key
-var jwtKey []byte = []byte("your_jwt_key")
-
 // GenToken 生成Token
-func GenToken(accountVo vo.AccountVo) (string, error) {
+func GenToken(accountVo vo.AccountVo, jwtKey string) (string, error) {
 	// 创建一个我们自己的声明
 	c := MyClaims{
 		// 自定义字段
