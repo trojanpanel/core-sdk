@@ -4,7 +4,7 @@
 // - protoc             v4.22.0
 // source: grpc_api.proto
 
-package core
+package coresdk
 
 import (
 	context "context"
