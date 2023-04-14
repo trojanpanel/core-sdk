@@ -6,7 +6,9 @@ Trojan Panel Core SDK
 
 # 注意
 
-在调用API前需要在Redis中添加以下数据
+1. Trojan Panel Core version >= 2.0.5
+
+2. 在调用API前需要在Redis中添加以下数据
 
 | key                    | 说明      |
 |------------------------|---------|
