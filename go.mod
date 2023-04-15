@@ -1,4 +1,4 @@
-module core
+module github.com/trojanpanel/core-sdk
 
 go 1.19
 
