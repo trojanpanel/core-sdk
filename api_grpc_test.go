@@ -39,7 +39,7 @@ func TestRemoveAccount(t *testing.T) {
 	logrus.Errorf("RemoveAccount success")
 }
 
-func TestNodeServerState(t *testing.T) {
+func TestGetNodeState(t *testing.T) {
 	nodeState, err := GetNodeState("your_token",
 		"127.0.0.1", 8100, 4, 443)
 	if err != nil {
