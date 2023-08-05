@@ -1,14 +1,14 @@
-# 该项目处于测试阶段
+# The project is in beta / 该项目处于测试阶段
 
-# Core SDK
+## Core SDK
 
 Trojan Panel Core SDK
 
-# Example
+## Example
 
 [core-sdk-example](https://github.com/trojanpanel/core-sdk-example)
 
-# 注意
+## Notice
 
 在调用API之前需要在Redis中设置trojan-panel:jwk-key和trojan-panel:token:${username}
 
@@ -18,11 +18,11 @@ Trojan Panel Core SDK
 | `trojan-panel:token:${username}` | 认证      |
 
 
-# Community
+## Community
 
-- Telegram Channel: [Trojan Panel](https://t.me/TrojanPanel)
+Telegram Channel: [Trojan Panel](https://t.me/TrojanPanel)
 
-# Release Notes
+## Release Notes
 
 | Core SDK Version | Trojan Panel Core Version | MySQL/MariaDB Version | Redis Version |
 |------------------|---------------------------|-----------------------|---------------|
