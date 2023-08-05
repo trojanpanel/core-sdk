@@ -1,4 +1,4 @@
-# The project is in beta / 该项目处于测试阶段
+# This project is in beta
 
 ## Core SDK
 
